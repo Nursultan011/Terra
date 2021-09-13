@@ -1,0 +1,175 @@
+@media (max-width: 767px)
+    .header
+        display: none
+
+    .main .slick-dots .slick-active
+        background: $main
+
+    .title
+        font-size: 42px
+        line-height: 48px
+
+    .main
+        background-image: none
+        height: auto
+        &__inner
+            width: 100%
+            margin-left: 0
+            margin-right: 0
+        &__slider
+            flex-wrap: wrap
+            padding-left: 5px
+            padding-right: 5px
+        &__descr
+            width: 100%
+            padding-left: 0
+        &__title
+            margin-top: 50px
+            color: $black
+            font-size: 42px
+            line-height: 48px
+        &__subtitle
+            margin-top: 40px
+            font-size: 24px
+            color: $black
+        .button
+            margin-top: 30px
+            width: 100%
+            background: $main
+            color: $white
+        &__img
+            width: 100%
+            margin-top: 50px
+        .slick-dots
+            bottom: -80px
+            left: 0
+
+    .about
+        background-image: none
+        &__inner
+            flex-wrap: wrap
+            width: 100%
+            margin-left: 0
+
+    .advert
+        &__item
+            width: 100%
+            & + .advert__item
+                margin-top: 30px
+
+    .technology
+        flex-wrap: wrap
+        &__descr
+            width: 100%
+            .title
+                font-size: 30px
+                line-height: 38px
+        &__items
+            width: 100%
+            margin-top: 40px
+
+    .technology2
+        flex-wrap: wrap-reverse
+
+    .list
+        &__items
+            margin-left: 0
+            margin-right: 0
+        &__item
+            width: 100%
+            margin-bottom: 0
+            margin-right: 0 !important
+            & + .list__item
+                margin-top: 30px
+
+    .footer
+        &__inner
+            flex-direction: column
+        &__flex
+            width: 70%
+            margin-top: 30px
+            margin-bottom: 30px
+        &__contacts
+            margin-top: 30px
+            div
+                & + div
+                    margin-top: 15px
+        &__n
+            width: 100%
+
+    .breadcrumb
+        a
+            color: $black !important
+        &__sub
+            position: relative
+            &::after
+                content: url('../img/black-arrow.svg') !important
+                position: absolute
+                left: -23px
+                top: -1px
+
+    .list
+        &__title
+            color: $black !important
+            font-size: 46px
+            line-height: 48px
+
+    .list-item
+        &__img
+            height: 300px
+        &__title
+            font-size: 36px
+            line-height: 44px
+
+    .pagination
+        margin-top: 50px
+
+    .company
+        &__wrap
+            flex-wrap: wrap
+            margin-top: 50px
+        &__img
+            width: 100%
+            margin-bottom: 40px
+        &__txt
+            width: 100%
+
+    .quote
+        width: 100%
+        margin-top: 100px
+        margin-left: 0
+
+    .decision
+        &__items
+            flex-wrap: wrap
+        &__item
+            width: 100%
+            & + .decision__item
+                margin-top: 30px
+
+    .partners
+        &__items
+            flex-wrap: wrap
+        &__item
+            width: 100%
+            img
+                margin: 0 auto
+                display: block
+                text-align: center
+            & + .partners__item
+                margin-top: 50px
+
+    .main-bg2
+        right: 0
+
+    .services
+        &__wrap
+            flex-wrap: wrap
+            .title
+                width: 100%
+                color: $black
+                font-size: 30px
+                line-height: 38px
+        &__suptitle
+            color: $black
+            width: 100%
